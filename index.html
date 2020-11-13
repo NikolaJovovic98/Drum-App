@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+    <title>Drumm Kit</title>
+</head>
+<body>
+
+
+    <div class="test">
+
+        <p style="color: black;" id="testP"></p>
+
+    </div>
+
+    <section id="app-panel">
+
+
+        <div id="drumm-buttons">
+
+            <div class="button-keys" data-keys="81">Q</div>
+            <div class="button-keys" data-keys="87">W</div>
+            <div class="button-keys" data-keys="69">E</div>
+            <div class="button-keys" data-keys="65">A</div>
+            <div class="button-keys" data-keys="83">S</div>
+            <div class="button-keys" data-keys="68">D</div>
+            <div class="button-keys" data-keys="90">Z</div>
+            <div class="button-keys" data-keys="88">X</div>
+            <div class="button-keys" data-keys="67">C</div>
+
+        </div>
+
+
+        <div id="drumm-options">
+
+            <div class="on-off-div"> 
+
+                <p>Power</p>
+
+                <label class="toggle" for="myToggle">
+                    <input class="toggle__input" name="" type="checkbox" id="myToggle" >
+                    <div class="toggle__fill"></div>
+                </label>
+               
+            
+            </div>
+           
+            <div class="sound-mode">
+
+                <h2 id="sound-mode-text">No Sound</h2>
+
+            </div>
+
+            <div class="range-slider">
+
+                <div > 
+                    
+                    <p>Sound Volume: </p> <p id="sound-volume-text"></p>
+                
+                </div>
+              
+                <input type="range" min="0" max="100" value="50" style="width: 100%;" id="range-slider-input">
+
+            </div>
+             
+            <div class="bank-div"> 
+                
+                <p>Bank 1 / Bank 2</p>
+
+                <label class="toggle2" for="myToggle2">
+                    <input class="toggle__input2" name="" type="checkbox" id="myToggle2" >
+                    <div class="toggle__fill2"></div>
+                </label>
+            
+            </div>
+
+
+
+        </div>
+
+
+
+    </section>
+    
+</body>
+</html>
